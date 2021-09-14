@@ -13,7 +13,7 @@ function discount50Function (fabValue) {
   while (realValue <= minProfit) {
     recomendationValue += 0.1
     let fee50Discount = (6.99 / 100) * recomendationValue + 0.39
-    let discountedValue = recomendationValue - (recomendationValue * 0.9)
+    let discountedValue = recomendationValue - (recomendationValue * 0.5)
     realValue = discountedValue - fee50Discount - fabValue
     console.log(realValue, discountedValue, recomendationValue)
   }

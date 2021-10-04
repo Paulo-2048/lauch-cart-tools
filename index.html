@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -12,28 +21,33 @@
     <main>
       <h1>Lauch Cart Tool</h1>
       <div class="inputs">
-        <input type="number" id="price-fab" placeholder="Price of Fab" />
+        <input type="number" id="price-fab" placeholder="Preço de Fabricação" />
         <input
           type="number"
           id="price-store"
-          placeholder="Price of You Store"
+          placeholder="Preço Final na Loja"
+        />
+        <input
+          type="number"
+          name="porcent"
+          id="porcent"
+          placeholder="Porcentagem de Desconto"
         />
         <button type="submit" id="submit">Calcular</button>
       </div>
       <div class="result">
         <span>Fee Value: </span>
         <div id="result-fee"></div>
+
         <span>Profit / Losses:</span>
         <div id="result-profLoss"></div>
-        <span>price for 50% Off: </span>
-        <div id="off50"></div>
+
+        <span id="result-porcent"></span>
+        <div id="porcentDisplay"></div>
       </div>
     </main>
 
-    <footer>
-      <h3>About</h3>
-      <p>Em contrução</p><br>
-    </footer>
+    <footer></footer>
 
     <script src="main.js"></script>
   </body>

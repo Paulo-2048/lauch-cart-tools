@@ -1,0 +1,9 @@
+main {
+  display: flexbox;
+  margin: 2em;
+}
+
+footer {
+  display: flexbox;
+  margin: 2em;
+}

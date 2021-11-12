@@ -1,0 +1,15 @@
+main {
+  display: flexbox;
+  margin: 2em;
+}
+
+footer {
+  display: flexbox;
+  margin: 2em;
+}
+
+
+.span-logo-dot {
+  color: #EF9F3D;
+  font-weight: bold
+}
